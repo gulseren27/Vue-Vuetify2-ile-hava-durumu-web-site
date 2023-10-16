@@ -112,7 +112,7 @@
 
        async getWeatherData() {
 
-        const apiKey = '03f87ac1004723a289753f86ffc5cd4e'
+        const apiKey = 'YOUR_API_KEY'
         const city = this.location; 
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
